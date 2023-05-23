@@ -25,7 +25,7 @@ Once logged in, navigate to the Aiven dashboard and create a new Kafka service.
 ***
 
 #### Create Service
-![blank service](screenshot/Screenshot 2023-05-23 at 2.49.13 PM.png)
+![blank service](screenshot/2023-05-23 at 2.49.13 PM.png)
 
 ***
 
@@ -41,7 +41,7 @@ Configure the necessary parameters, including service name, project, and the num
 
 ***
 
-Don't forget to download the 3 differents certificates. We will nees them later at the coding part. You can also select your prefered language, here I will choose Python. This will shoe you next a sample app that we will augment for our demo.
+Don't forget to download the 3 different certificates. We will need them later at the coding part. You can also select your preferred language, here I will choose Python. This will shoe you next a sample app that we will augment for our demo.
 
 ![](screenshot/Screenshot 2023-05-23 at 2.51.07 PM.png)
 
