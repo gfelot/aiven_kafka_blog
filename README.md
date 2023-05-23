@@ -25,35 +25,35 @@ Once logged in, navigate to the Aiven dashboard and create a new Kafka service.
 ***
 
 #### Create Service
-![blank service](screenshot/2023-05-23 at 2.49.13 PM.png)
+![blank service](screenshot/2.49.13.png)
 
 ***
 
 #### Select Kafka Service
-![](screenshot/Screenshot 2023-05-23 at 5.07.06 PM.png)
+![](screenshot/5.07.06.png)
 
 
 #### Configure
 Select your desired cloud provider, region, and the appropriate plan for your Kafka service.
 Configure the necessary parameters, including service name, project, and the number of Kafka nodes.
 
-![](screenshot/Screenshot 2023-05-23 at 2.49.45 PM.png)
+![](screenshot/2.49.45.png)
 
 ***
 
 Don't forget to download the 3 different certificates. We will need them later at the coding part. You can also select your preferred language, here I will choose Python. This will shoe you next a sample app that we will augment for our demo.
 
-![](screenshot/Screenshot 2023-05-23 at 2.51.07 PM.png)
+![](screenshot/2.51.07.png)
 
 #### The Magic & The Topic
 While the magic happen behind the scene you service you cannot add a topic. You just have to way for the Aiven elf plug everything and you can add your first topic. 
 
-![](screenshot/Screenshot 2023-05-23 at 2.52.55 PM.png)
+![](screenshot/2.52.55.png)
 
 ***
 
 Here I will choose `kafka_blog` for this blog post.
-![](screenshot/Screenshot 2023-05-23 at 5.25.06 PM.png)
+![](screenshot/5.25.06.png)
 
 
 Review the configuration and create the Kafka service.
@@ -63,13 +63,13 @@ Review the configuration and create the Kafka service.
 
 Within your Aiven account, inside your Kafka service, select the Tab "Integrations".
 
-![](screenshot/Screenshot 2023-05-23 at 7.04.48 PM.png)
+![](screenshot/7.04.48.png)
 
 ***
 
 Select the option "Store Metrics" inside de "Aiven Solutions" part.
 
-![](screenshot/Screenshot 2023-05-23 at 2.56.06 PM.png)
+![](screenshot/2.56.06.png)
 
 ***
 
@@ -79,12 +79,12 @@ Then follow the flow like for Kakfa.
 Select your preferred cloud provider, region, and the desired plan for your InfluxDB service.
 Configure the necessary parameters, including the service name, project, and the number of InfluxDB nodes.
 
-![](screenshot/Screenshot 2023-05-23 at 3.03.16 PM.png)
+![](screenshot/3.03.16.png)
 
 ***
 Since we don't have a InfluxDB instance yet, we will let the system create one for us. We could also plug Kafka to an existing instance if available.
 
-![](screenshot/Screenshot 2023-05-23 at 3.51.44 PM.png)
+![](screenshot/3.51.44.png)
 
 ***
 
@@ -94,7 +94,7 @@ Carefully review the configuration and create the InfluxDB service.
 
 When the service is up you should see a new InfluxDB service in your dashboard. Click on it to see all its informations
 
-![](screenshot/Screenshot 2023-05-23 at 3.55.11 PM.png)
+![](screenshot/3.55.11.png)
 
 ### Step 4: Creating Aiven Grafana Service as an Integration Service
 
@@ -102,19 +102,19 @@ Once again, we will use the very same step to start up our Grafana service and l
 
 Go into the Integration Tab and add a `Grafana Metrics Dashboard`
 
-![](screenshot/Screenshot 2023-05-23 at 3.55.23 PM.png)
+![](screenshot/3.55.23.png)
 
 ***
 
 Now you should be use about how easy it is to play with the Aiven console.
 
-![](screenshot/Screenshot 2023-05-23 at 3.55.34 PM.png)
+![](screenshot/3.55.34.png)
 
 ### Step 5: Connecting Grafana WebUI
 
 Access the Grafana web interface provided by Aiven using the provided URL and login credentials in the `Overview Tab`.
 
-![](screenshot/Screenshot 2023-05-23 at 4.03.44 PM.png)
+![](screenshot/4.03.44.png)
 
 Congrats ! You have a full stack of data streaming all together.
 
@@ -259,18 +259,18 @@ The use Grafana it's easy too. Since we have plug Kakfa and InfluxDB into the se
 
 Click in the webUI in the top left, the loupe. Look for an `Aiven Kafka*` option and click on it
 
-![](screenshot/Screenshot 2023-05-23 at 4.04.06 PM.png)
+![](screenshot/4.04.06.png)
 
 You should be able to see interesting metrics here.
 From the System Metrics
 
-![](screenshot/Screenshot 2023-05-23 at 4.04.15 PM.png)
+![](screenshot/4.04.15.png)
 
 ***
 
 Or the more focused Kafka metrics
 
-![](screenshot/Screenshot 2023-05-23 at 7.58.18 PM.png)
+![](screenshot/7.58.18.png)
 
 ## Conclusion
 
